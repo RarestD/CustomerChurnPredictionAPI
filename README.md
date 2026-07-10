@@ -18,7 +18,7 @@ A REST API built with **FastAPI** and **scikit-learn** that predicts whether a S
  
 ```bash
 pip install fastapi uvicorn pandas scikit-learn
-uvicorn main:app --reload
+uvicorn CustomerChurnPredictionAPI:app --reload
 ```
  
 Visit `http://127.0.0.1:8000/docs` for interactive Swagger documentation.
